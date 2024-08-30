@@ -8,6 +8,7 @@ function generateDeck() {
         .then(res => res.json())
         .then(data => {
             text.innerHTML = "Ready to draw cards";
+            text2.innerHTML = `${data.remaining} cards remain`
             deck_id = data.deck_id;
             if (!deck_id) {
                 throw new Error('Error generating deck');
