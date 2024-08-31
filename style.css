@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #339c5E;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    margin: 3px;
+    background-color: snow;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+button:hover{
+    background-color: rgb(218, 216, 216);
+    cursor: pointer;
+}
+
+#drawCard{
+    margin-bottom: -20px;
+}
+
+h1{
+    color: rgb(255, 170, 72);
+    text-decoration: none;
+    font-style: italic;
+    margin-bottom: -10px;
+    text-shadow:2px 2px 4px black;
+}
+
+h3{
+    color: rgb(255, 170, 72);
+    margin-bottom: -1px;
+    text-shadow:2px 2px 4px black;
+}
